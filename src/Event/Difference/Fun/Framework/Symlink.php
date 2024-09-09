@@ -1,11 +1,11 @@
 <?php
 
-namespace Event\Raxon\Org\Framework;
+namespace Event\Raxon\Framework;
 
-use Raxon\Org\App;
-use Raxon\Org\Config;
-use Raxon\Org\Module\Dir;
-use Raxon\Org\Module\File;
+use Raxon\App;
+use Raxon\Config;
+use Raxon\Module\Dir;
+use Raxon\Module\File;
 
 class Symlink {
 

@@ -1,26 +1,26 @@
 <?php
-//@move to raxon_org/doctrine or raxon_org/email
+//@move to raxon/doctrine or raxon/email
 
-namespace Event\Raxon\Org\Framework\Parse;
+namespace Event\Raxon\Framework\Parse;
 
-use Event\Raxon\Org\Framework\Email;
+use Event\Raxon\Framework\Email;
 
-use Raxon\Org\App;
-use Raxon\Org\Config;
+use Raxon\App;
+use Raxon\Config;
 
-use Raxon\Org\Module\Core;
-use Raxon\Org\Module\Dir;
-use Raxon\Org\Module\Event;
-use Raxon\Org\Module\File;
+use Raxon\Module\Core;
+use Raxon\Module\Dir;
+use Raxon\Module\Event;
+use Raxon\Module\File;
 
 use Exception;
 
 use Doctrine\ORM\Exception\ORMException;
 use Doctrine\ORM\OptimisticLockException;
 
-use Raxon\Org\Exception\FileWriteException;
-use Raxon\Org\Exception\ObjectException;
-use Raxon\Org\Exception\ParseException;
+use Raxon\Exception\FileWriteException;
+use Raxon\Exception\ObjectException;
+use Raxon\Exception\ParseException;
 
 class Build {
     const NAME = 'Build';

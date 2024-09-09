@@ -1,12 +1,12 @@
 <?php
 
-namespace Event\Raxon\Org\System;
+namespace Event\Raxon\System;
 
-use Event\Raxon\Org\Framework\Email;
+use Event\Raxon\Framework\Email;
 
-use Raxon\Org\App;
+use Raxon\App;
 
-use Raxon\Org\Module\Stream\Notification;
+use Raxon\Module\Stream\Notification;
 
 use Exception;
 

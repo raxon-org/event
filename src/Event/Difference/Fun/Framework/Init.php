@@ -1,11 +1,11 @@
 <?php
 
-namespace Event\Raxon\Org\Framework;
+namespace Event\Raxon\Framework;
 
-use Raxon\Org\App;
+use Raxon\App;
 
-use Raxon\Org\Module\File;
-use Raxon\Org\Module\Route;
+use Raxon\Module\File;
+use Raxon\Module\Route;
 
 use Exception;
 
