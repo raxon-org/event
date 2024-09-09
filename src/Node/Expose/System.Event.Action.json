@@ -1,0 +1,151 @@
+{
+    "System": {
+        "Event": {
+            "Action": {
+                "count": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "create": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "create_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "list": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "page": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "patch": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "patch_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "put": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "put_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "read": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                },
+                "record": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "action",
+                                "readme"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

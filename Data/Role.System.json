@@ -1,0 +1,183 @@
+{
+  "name" : "ROLE_SYSTEM",
+  "rank" : 1,
+  "#class": "Account.Role",
+  "permission": [
+    {
+      "name": "System:Event:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:delete.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:rename",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:delete.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action::property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Event:Action:rename",
+      "#class": "Account.Permission"
+    }
+  ]
+}

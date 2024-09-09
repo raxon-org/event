@@ -1,0 +1,5 @@
+--install-cron
+--restore-ssh
+--configure-git
+--restore-git
+--restore-symlink

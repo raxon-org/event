@@ -1,0 +1,27 @@
+{
+    "Node": {
+        "#class": "System.Event.Action",
+        "type": "object",
+        "property": [
+            {
+                "name": "action",
+                "type": "string"
+            },
+            {
+                "name": "readme",
+                "type": "string"
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "action"
+    ]
+}

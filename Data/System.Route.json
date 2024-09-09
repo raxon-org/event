@@ -1,0 +1,18 @@
+{
+  "System": {
+    "Route": [
+      {
+        "name": "raxon-org-cli-event",
+        "path": "raxon_org\/event",
+        "controller": "Package:Raxon:Org:Event:Controller:Cli:run",
+        "priority": 1001,
+        "request": {
+          "language": "en"
+        },
+        "method": [
+          "CLI"
+        ]
+      }
+    ]
+  }
+}

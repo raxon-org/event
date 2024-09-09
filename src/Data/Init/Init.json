@@ -1,0 +1,94 @@
+{
+  "Init" : [
+    {
+      "name": "restore-ssh",
+      "controller": "Event:Raxon:Org:Framework:Ssh:restore",
+      "priority": 1
+    },
+    {
+      "name": "install-cron",
+      "controller": "Event:Raxon:Org:Framework:Cron:install",
+      "priority": 2
+    },
+    {
+      "name": "restore-apache2",
+      "controller": "Event:Raxon:Org:Framework:Apache2:restore",
+      "priority": 3
+    },
+    {
+      "name": "backup-apache2",
+      "controller": "Event:Raxon:Org:Framework:Apache2:backup",
+      "priority": 4
+    },
+    {
+      "name": "configure-apache2",
+      "controller": "Event:Raxon:Org:Framework:Apache2:configure",
+      "priority": 5
+    },
+    {
+      "name": "configure-doctrine",
+      "controller": "Event:Raxon:Org:Framework:Doctrine:configure",
+      "priority": 6
+    },
+    {
+      "name": "restore-doctrine",
+      "controller": "Event:Raxon:Org:Framework:Doctrine:restore",
+      "priority": 7
+    },
+    {
+      "name": "restart-apache2",
+      "controller": "Event:Raxon:Org:Framework:Apache2:restart",
+      "priority": 8
+    },
+    {
+      "name": "backup-php",
+      "controller": "Event:Raxon:Org:Framework:Php:backup",
+      "priority": 9
+    },
+    {
+      "name": "restore-php",
+      "controller": "Event:Raxon:Org:Framework:Php:restore",
+      "priority": 10
+    },
+    {
+      "name": "restart-php",
+      "controller": "Event:Raxon:Org:Framework:Php:restart",
+      "priority": 11
+    },
+    {
+      "name": "restart-cron",
+      "controller": "Event:Raxon:Org:Framework:Cron:restart",
+      "priority": 12
+    },
+    {
+      "name": "start-cron",
+      "controller": "Event:Raxon:Org:Framework:Cron:start",
+      "priority": 13
+    },
+    {
+      "name": "configure-git",
+      "controller": "Event:Raxon:Org:Framework:Git:configure",
+      "priority": 14
+    },
+    {
+      "name": "restore-git",
+      "controller": "Event:Raxon:Org:Framework:Git:restore",
+      "priority": 15
+    },
+    {
+      "name": "restore-symlink",
+      "controller": "Event:Raxon:Org:Framework:Symlink:restore",
+      "priority": 16
+    },
+    {
+      "name": "doctrine-orm-generate-proxies",
+      "controller": "Event:Raxon:Org:Framework:Doctrine:orm.generate.proxies",
+      "priority": 17
+    },
+    {
+      "name": "restart-system",
+      "controller": "Event:Raxon:Org:System:Restart:execute",
+      "priority": 1000000
+    }
+  ]
+}

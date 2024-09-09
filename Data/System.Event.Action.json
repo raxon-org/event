@@ -1,0 +1,338 @@
+{
+    "System": {
+        "Event": {
+            "Action": [
+                {
+                    "action": "cli.autoload.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.autoload.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.autoload.restart",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.bin.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.cache.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.cache.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.cache.clear",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.doctrine.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.init.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.info.all",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.install",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.log.archive",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.license.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.licence.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.linefeed.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ln",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ln.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.openssl.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.openssl.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.openssl.req",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.parse.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.parse.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.parse.restart",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.parse.compile",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.password.hash",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ramdisk.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ramdisk.clear",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ramdisk.mount",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ramdisk.speedtest",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.ramdisk.unmount",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.restore.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.restore.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.route.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.route.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.route.restart",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.get",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.set",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.has",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.delete",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.lock",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.unlock",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.secret.status",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.system.push",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.system.restart",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.system.restart.notification",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.system.update",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.system.update.notification",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.uuid.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.version.run",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.version.info",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.version.update",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.zip.archive",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "cli.zip.extract",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "event.configure",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.write",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.write.error",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.write.success",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.plugin.require",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.plugin.not_found",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.build.plugin.not_allowed",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.compile.exception",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.compile.opcache.invalidate",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "parse.compile.opcache.file",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "raxon.org.node.data.create.error",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                },
+                {
+                    "action": "raxon.org.server.public.create",
+                    "readme": "",
+                    "#class": "System.Event.Action"
+                }
+            ]
+        }
+    }
+}
