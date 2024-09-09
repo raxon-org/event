@@ -4,7 +4,7 @@
       {
         "name": "raxon-org-cli-event",
         "path": "raxon\/event",
-        "controller": "Package:Raxon:Org:Event:Controller:Cli:run",
+        "controller": "Package:Raxon:Event:Controller:Cli:run",
         "priority": 1001,
         "request": {
           "language": "en"

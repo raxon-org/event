@@ -6,7 +6,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Framework:Init:run"
+                        "Event:Raxon:Framework:Init:run"
                     ],
                     "priority": 10
                 },
@@ -17,7 +17,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Framework:Log:archive"
+                        "Event:Raxon:Framework:Log:archive"
                     ],
                     "priority": 10
                 },
@@ -28,7 +28,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:System:Restart:execute"
+                        "Event:Raxon:System:Restart:execute"
                     ],
                     "priority": 10
                 },
@@ -39,7 +39,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:System:Restart:notification"
+                        "Event:Raxon:System:Restart:notification"
                     ],
                     "priority": 10
                 },
@@ -62,7 +62,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:System:Update:notification"
+                        "Event:Raxon:System:Update:notification"
                     ],
                     "priority": 10
                 },
@@ -73,7 +73,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Framework:Parse:Build:write"
+                        "Event:Raxon:Framework:Parse:Build:write"
                     ],
                     "priority": 10
                 },
@@ -84,7 +84,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Framework:Parse:Build:exception"
+                        "Event:Raxon:Framework:Parse:Build:exception"
                     ],
                     "priority": 10
                 },
@@ -95,7 +95,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Framework:Parse:Build:exception"
+                        "Event:Raxon:Framework:Parse:Build:exception"
                     ],
                     "priority": 10
                 },
@@ -106,7 +106,7 @@
                 "options": {
                     "command": [],
                     "controller": [
-                        "Event:Raxon:Org:Node:Create:error"
+                        "Event:Raxon:Node:Create:error"
                     ],
                     "priority": 10
                 },
