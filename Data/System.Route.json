@@ -3,7 +3,7 @@
     "Route": [
       {
         "name": "raxon-org-cli-event",
-        "path": "raxon_org\/event",
+        "path": "raxon\/event",
         "controller": "Package:Raxon:Org:Event:Controller:Cli:run",
         "priority": 1001,
         "request": {
