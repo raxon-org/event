@@ -53,10 +53,12 @@ class Restart {
     public static function notification(App $object, $event, $options=[]): void
     {
         $action = $event->get('action');
+        /*
         Email::queue(
             $object,
             $action,
             $options
         );
+        */
     }
 }
