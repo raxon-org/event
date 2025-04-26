@@ -46,7 +46,6 @@ class Build {
         }
         //make event which checks php-l and move accordingly
         $command = 'php -l ' . escapeshellcmd($options['url']);
-
         $default = $object->config('core.execute.stream.is.default');
         $object->config('core.execute.mode', 'stream');
         $object->config('core.execute.stream.is.default', false);
