@@ -22,8 +22,7 @@ class Cli extends Controller {
     const DIR = __DIR__ . '/';
     const MODULE_INFO = 'Info';
     const INFO = [
-        '{{binary()}} raxon/event                   | Event (Object store) options',
-        '{{binary()}} raxon/event setup             | Event setup'
+        '{{binary()}} raxon/event                   | Event (Object store) options',        
     ];
 
     /**
